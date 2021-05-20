@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="pressed_item">Item pressionado: </string>
+    <string name="long_click">Clique longo: </string>
+    <string name="movie_title">Título</string>
+    <string name="gender_movie">Gênero</string>
+    <string name="year_movie">Ano</string>
+</resources>
