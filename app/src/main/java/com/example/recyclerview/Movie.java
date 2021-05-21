@@ -1,14 +1,11 @@
 package com.example.recyclerview;
 
 public class Movie {
-    private String year;
-    private String gender;
-    private String title;
+    private final String year;
+    private final GenderMovie gender;
+    private final String title;
 
-    public Movie(){
-    }
-
-    public Movie(String year, String gender, String title) {
+    public Movie(String year, GenderMovie gender, String title) {
         this.year = year;
         this.gender = gender;
         this.title = title;
@@ -18,23 +15,11 @@ public class Movie {
         return year;
     }
 
-    public void setYear(String year) {
-        this.year = year;
-    }
-
-    public String getGender() {
+    public GenderMovie getGender() {
         return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 
     public String getTitle() {
         return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 }

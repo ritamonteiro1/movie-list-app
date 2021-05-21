@@ -5,4 +5,5 @@
     <string name="movie_title">Título</string>
     <string name="gender_movie">Gênero</string>
     <string name="year_movie">Ano</string>
+    <string name="item_click_message">%s %s %s</string>
 </resources>

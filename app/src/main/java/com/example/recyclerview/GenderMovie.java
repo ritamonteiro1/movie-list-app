@@ -8,13 +8,13 @@ public enum GenderMovie {
     SCIENCE_FICTION("Ficção Científica"),
     BASED_ON_REAL_FACTS("Baseado em fatos reais");
 
-    private final String gender;
+    private final String value;
 
-    GenderMovie(String gender){
-        this.gender = gender;
+    GenderMovie(String value){
+        this.value = value;
     }
 
-    public String getGender() {
-        return gender;
+    public String getValue() {
+        return value;
     }
 }
